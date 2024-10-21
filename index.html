@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor Notación Polaca a Infija</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="contenedor">
+        <h1>Convertidor de Notación Polaca a Notación Infija</h1>
+        <form id="formulario">
+            <label for="expresion-polaca">Introduce una expresión en notación polaca:</label>
+            <input type="text" id="expresion-polaca" placeholder="Ejemplo: + 2 3 * 4 5" required>
+            <button type="submit">Convertir y Calcular</button>
+        </form>
+        <div class="resultados">
+            <h3>Resultado de la operación:</h3>
+            <p id="resultado-operacion"></p>
+            <h3>Notación Normal:</h3>
+            <p id="resultado-infija"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
